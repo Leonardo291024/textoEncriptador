@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-msj img{
+    display: flex;
+}
+
+.container-buttons{
+    margin-top: 205px;
+}
+
+footer{
+    height: 172px;
+}
+
+.link{
+    transition: 1s all;
+}
+
+.link:hover{
+    background-color: var(--dark-blue-100);
+}

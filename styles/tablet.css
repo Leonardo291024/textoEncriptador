@@ -1,0 +1,29 @@
+.container-input{
+    min-width: 640px;
+}
+
+.container-buttons{
+    max-width: 640px;
+}
+
+.container-buttons .buttons{
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.btnEncriptar, .btnDesencriptar{
+    margin-right: 10px;
+    width: 332px;
+}
+
+.container-msj{
+    max-width: 640px;
+}
+
+.container-msj img{
+    display: none;
+}
+
+footer{
+    height: 172px;
+}

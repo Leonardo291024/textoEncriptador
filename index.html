@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 645px)">
+    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1000px)">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <main>
+        <section class="seccion-para-texto">
+            <header>
+                <img src="./assets/Logo.svg" alt="">
+            </header>
+            <section class="container-input">
+                <input type="text" placeholder="Ingrese Texto aqui" class="input-text" pattern="[a-z]+" required>
+            </section>
+            <!--section class="texto-generado">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque doloribus eum dolorem quas fugiat, aliquam voluptate animi voluptates velit, voluptas sunt modi labore consectetur error quo dolor deserunt sint non.</p>
+            </!--section-->
+            <section class="container-buttons">
+                <span>
+                    <img src="./assets/Vector.svg" alt="">
+                    <p>Solo letras minusculas y sin acentos</p>
+                </span>
+                <div class="buttons">
+                    <button class="btnEncriptar">Encriptar</button>
+                    <button class="btnDesencriptar">Desencriptar</button>
+                </div>
+            </section>
+        </section>
+       
+        <section class="container-msj">
+            <img src="./assets/Muñeco.svg" alt="">
+            <span id="copiarTexto">
+                <p id="zonaDeTexto"></p>
+            </span>
+            <p id="texto-encriptado" class="copiarTexto"></p>
+            <p id="texto-desencriptado" class="copiarTexto2"></p>
+            <p id="mensaje-error1">Ningun mensaje fue encontrado</p>
+            <p id="mensaje-error2">ingresa el texto que deseas encriptar o desencriptar</p>
+            <button class="btnCopiar">copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://github.com/Leonardo291024" class="link">
+                    <img src="./assets/icons8-github-100.png" alt="" class="icons">
+                </a>
+                <p class="redes">Leonardo DG</p>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/marcos-leonardo-d%C3%ADaz-guzm%C3%A1n-9aa970215/"  class="link">
+                    <img src="./assets/icons8-linkedin-100.png" alt="" class="icons">
+                </a>
+                <p class="redes">Leonardo</p>
+            </li>
+        </ul>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
