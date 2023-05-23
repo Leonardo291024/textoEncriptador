@@ -15,4 +15,6 @@
 **La pagina contiene dos botones uno sirve para encriptar el mensaje y otro boton que funciona como desencriptador.**
 **Como extra se le agrego un boton que tiene la funcionalidad de copiar el texto que genera el encriptador y desencriptador.**
 
+https://leonardo291024.github.io/textoEncriptador/
+
 ###End
